@@ -1,0 +1,12 @@
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.deps.json
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfoInputs.cache
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfo.cs
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.sourcelink.json
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll
