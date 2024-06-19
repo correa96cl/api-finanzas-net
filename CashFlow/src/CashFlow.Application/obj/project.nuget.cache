@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RFqJAgPFZa8=",
+  "dgSpecHash": "nDByEnWGenw=",
   "success": true,
   "projectFilePath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/marcelovalderramacorrea/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }
