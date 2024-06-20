@@ -1,4 +1,5 @@
 ﻿using CashFlow.Communication;
+using CashFlow.Exception;
 
 namespace CashFlow.Application;
 
@@ -21,7 +22,7 @@ public class RegisterExpenseUseCase
         if (result.IsValid == false)
         {
             var errorMessages = result.Errors.Select(f => f.ErrorMessage).ToList();
-            throw new ArgumentException();
+            throw new ErrorOnValidationException(errorMessages);
         }
 
     }
