@@ -1,0 +1,16 @@
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.deps.json
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.pdb
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.AssemblyReference.cache
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfoInputs.cache
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfo.cs
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.CoreCompileInputs.cache
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.sourcelink.json
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTe.14C365E1.Up2Date
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/refint/CommonTestUtilities.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.pdb
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/ref/CommonTestUtilities.dll

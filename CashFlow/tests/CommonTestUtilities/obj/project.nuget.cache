@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9pVWhxr2qGs=",
+  "success": true,
+  "projectFilePath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/CommonTestUtilities/CommonTestUtilities.csproj",
+  "expectedPackageFiles": [
+    "/Users/marcelovalderramacorrea/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
