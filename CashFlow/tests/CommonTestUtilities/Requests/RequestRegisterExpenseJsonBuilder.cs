@@ -18,13 +18,5 @@ public static RequestRegisterExpenseJson Build(){
     .RuleFor(r => r.PaymentType, faker => faker.PickRandom<PaymentType>())
     .RuleFor(r => r.Amount, faker => faker.Random.Decimal(min: 1, max: 10000));
 
-    /*return new RequestRegisterExpenseJson(){
-        Amount = 10,
-        Description = "test",
-        Title = "test",
-        Date = DateTime.Now.AddDays(-1),
-        PaymentType = PaymentType.CASH
-    };*/
-
 }
 }

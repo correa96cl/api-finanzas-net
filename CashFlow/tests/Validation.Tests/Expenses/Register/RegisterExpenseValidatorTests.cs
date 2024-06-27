@@ -67,7 +67,7 @@ public class RegisterExpenseValidatorTests
         //Arrange
         var validator = new RegisterExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
-        request.PaymentType = (PaymentType)700;
+        request.PaymentType = (CashFlow.Communication.PaymentType)700;
 
         //Act
         var result = validator.Validate(request);

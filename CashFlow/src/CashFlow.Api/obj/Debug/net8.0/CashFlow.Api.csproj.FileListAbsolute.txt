@@ -43,3 +43,8 @@
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/CashFlow.Api.pdb
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/CashFlow.Api.genruntimeconfig.cache
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/ref/CashFlow.Api.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/MySqlConnector.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
