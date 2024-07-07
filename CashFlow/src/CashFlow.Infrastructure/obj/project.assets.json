@@ -731,6 +731,7 @@
     "net8.0": [
       "CashFlow.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2"
     ]
   },
@@ -783,6 +784,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
