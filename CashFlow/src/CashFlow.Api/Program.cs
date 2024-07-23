@@ -1,5 +1,6 @@
 using CashFlow.Api;
 using CashFlow.Infrastructure;
+using CashFlow.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,10 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Configuration.GetConnectionString("Connection");
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
-builder.Services.AddInfraestructure();
+builder.Services.AddInfraestructure(builder.Configuration);
+builder.Services.AddApplication();
 
 
 var app = builder.Build();
