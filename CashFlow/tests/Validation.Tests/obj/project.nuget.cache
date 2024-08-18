@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6DGErmqGNAc=",
+  "dgSpecHash": "xAwJKhBS03U=",
   "success": true,
   "projectFilePath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/tests/Validation.Tests/Validation.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/marcelovalderramacorrea/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",

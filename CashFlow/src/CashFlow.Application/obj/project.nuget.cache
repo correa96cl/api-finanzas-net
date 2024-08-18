@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mGIQ3oNWMhI=",
+  "dgSpecHash": "+uwJNTskvkE=",
   "success": true,
   "projectFilePath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/marcelovalderramacorrea/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
