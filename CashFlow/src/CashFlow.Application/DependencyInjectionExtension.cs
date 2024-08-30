@@ -1,4 +1,6 @@
 ﻿using CashFlow.Application.AutoMapper;
+using CashFlow.Application.UseCases.Expenses.GetAll;
+using CashFlow.Application.UseCases.Expenses.GetById;
 using Microsoft.Extensions.DependencyInjection;
 using Pomelo.EntityFrameworkCore.MySql.Metadata.Conventions;
 
@@ -17,6 +19,8 @@ public static class DependencyInjectionExtension
 
     private static void AddUseCase(this IServiceCollection services){
         services.AddScoped<IRegisterExpenseUseCase, RegisterExpenseUseCase>();
+        services.AddScoped<IGetAllExpenseUseCase, GetAllExpenseUseCase>();
+        services.AddScoped<IGetExpenseByIdUseCase, GetExpenseByIdUseCase>();
 
     }
 }

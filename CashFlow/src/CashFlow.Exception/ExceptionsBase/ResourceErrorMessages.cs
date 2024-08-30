@@ -11,4 +11,6 @@ public const string AMOUNT_MUST_BE_GREATER_THAN_ZERO = "Mount must be greater th
 public const string EXPENSES_CANNOT_FOR_THE_FUTURE = "Expenses cannot for the future";
 
 public const string PAYMENT_TYPE_INVALID = "Payment type invalid";
+
+public const string EXPENSE_NOT_FOUND = "Expense not found";
 }
