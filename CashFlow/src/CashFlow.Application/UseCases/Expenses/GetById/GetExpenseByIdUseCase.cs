@@ -16,7 +16,7 @@ public class GetExpenseByIdUseCase : IGetExpenseByIdUseCase
         _mapper = mapper;
     }
 
-    public async Task<ResponseExpensesJson> Execute(long id)
+    public async Task<ResponseExpenseJson> Execute(long id)
     {
         var result = await _repository.GetById(id);
 
@@ -24,6 +24,6 @@ public class GetExpenseByIdUseCase : IGetExpenseByIdUseCase
             throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
         }
 
-        return _mapper.Map<ResponseExpensesJson>(result);
+        return _mapper.Map<ResponseExpenseJson>(result);
     }
 }
