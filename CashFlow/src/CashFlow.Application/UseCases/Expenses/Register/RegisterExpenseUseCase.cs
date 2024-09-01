@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CashFlow.Communication;
 using CashFlow.Domain;
+using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Exception;
 using CashFlow.Infrastructure;
 
@@ -9,12 +10,12 @@ namespace CashFlow.Application;
 public class RegisterExpenseUseCase : IRegisterExpenseUseCase
 {
 
-private readonly IExpensesRepository _repository;
+private readonly IExpensesWriteOnlyRepository _repository;
 private readonly IUnitOfWork _unitOfWork;
 private readonly IMapper _mapper;
 
 
-    public RegisterExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork, IMapper mapper)
+    public RegisterExpenseUseCase(IExpensesWriteOnlyRepository repository, IUnitOfWork unitOfWork, IMapper mapper)
     {
         _repository = repository;
         _unitOfWork = unitOfWork;
