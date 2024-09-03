@@ -22,7 +22,7 @@ private readonly IMapper _mapper;
         _mapper = mapper;
     }
 
-    public async Task<ResponseRegisteredExpenseJson> Execute(RequestRegisterExpenseJson request)
+    public async Task<ResponseRegisteredExpenseJson> Execute(RequestExpenseJson request)
     {
         Validate(request);
         var entity = _mapper.Map<Expense>(request);
@@ -36,7 +36,7 @@ private readonly IMapper _mapper;
         return _mapper.Map<ResponseRegisteredExpenseJson>(entity);
     }
 
-    private void Validate(RequestRegisterExpenseJson request)
+    private void Validate(RequestExpenseJson request)
     {
         var validator = new RegisterExpenseValidator();
 

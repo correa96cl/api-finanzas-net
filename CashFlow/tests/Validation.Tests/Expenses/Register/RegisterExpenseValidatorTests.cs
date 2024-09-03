@@ -12,7 +12,7 @@ public class RegisterExpenseValidatorTests
     public void Success()
     {
         //Arrange
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
 
         //Act
@@ -29,7 +29,7 @@ public class RegisterExpenseValidatorTests
     public void Error_Title_Empty(string title)
     {
         //Arrange
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Title = title;
         request.Amount = 12;
@@ -48,7 +48,7 @@ public class RegisterExpenseValidatorTests
 
     {
         //Arrange
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Date = DateTime.Now.AddDays(1);
 
@@ -65,7 +65,7 @@ public class RegisterExpenseValidatorTests
     
     {
         //Arrange
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.PaymentType = (CashFlow.Communication.PaymentType)700;
 
@@ -86,7 +86,7 @@ public class RegisterExpenseValidatorTests
     
     {
         //Arrange
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Amount = amount;
 
