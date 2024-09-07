@@ -49,3 +49,10 @@
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/MySqlConnector.dll
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/AutoMapper.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/ClosedXML.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/DocumentFormat.OpenXml.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/ExcelNumberFormat.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Irony.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/SixLabors.Fonts.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/System.IO.Packaging.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/XLParser.dll
