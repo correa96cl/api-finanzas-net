@@ -8,6 +8,8 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
 
 {
 
+    private const string CURRENCY_SYMBOL = "€";
+
     private readonly IExpensesReadOnlyRepository _repository;
 
     public GenerateExpensesReportExcelUseCase(IExpensesReadOnlyRepository repository)
@@ -22,7 +24,7 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
         {
             return [];
         }
-        var workbook = new XLWorkbook();
+        using var workbook = new XLWorkbook();
 
         workbook.Author = "Welisson Arley";
         workbook.Style.Font.FontSize = 12;
@@ -31,17 +33,22 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
         var worksheet = workbook.Worksheets.Add(month.ToString("Y"));
         InsertHeader(worksheet);
 
-          var raw = 2;
-        foreach(var expense in expenses)
+        var raw = 2;
+        foreach (var expense in expenses)
         {
             worksheet.Cell($"A{raw}").Value = expense.Title;
             worksheet.Cell($"B{raw}").Value = expense.Date;
             worksheet.Cell($"C{raw}").Value = ConvertPaymentType(expense.PaymentType);
             worksheet.Cell($"D{raw}").Value = expense.Amount;
+            worksheet.Cell($"D{raw}").Style.NumberFormat.Format = $"-{CURRENCY_SYMBOL} #,##0.00";
+
             worksheet.Cell($"E{raw}").Value = expense.Description;
 
             raw++;
         }
+
+        worksheet.Columns().AdjustToContents();
+
         var file = new MemoryStream();
         workbook.SaveAs(file);
 
@@ -49,7 +56,7 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
 
     }
 
-        private string ConvertPaymentType(PaymentType payment)
+    private string ConvertPaymentType(PaymentType payment)
     {
         return payment switch
         {

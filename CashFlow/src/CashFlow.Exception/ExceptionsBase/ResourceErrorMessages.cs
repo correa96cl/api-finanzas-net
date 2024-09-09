@@ -20,4 +20,6 @@ public class ResourceErrorMessages
     public const string AMOUNT = "Valor";
     public const string DESCRIPTION = "Descrição";
 
+    public const string EXPENSES_FOR = "Despesas para";
+
 }

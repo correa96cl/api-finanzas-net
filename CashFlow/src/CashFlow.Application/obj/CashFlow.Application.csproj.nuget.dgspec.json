@@ -64,9 +64,17 @@
               "target": "Package",
               "version": "[0.102.3, )"
             },
+            "DateOnlyTimeOnly.AspNet": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.2, )"
+            },
+            "PDFsharp-MigraDoc": {
+              "target": "Package",
+              "version": "[6.1.1, )"
             }
           },
           "imports": [

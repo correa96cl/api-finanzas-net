@@ -1,5 +1,7 @@
 using CashFlow.Application.UseCases.Expenses.Reports.Excel;
+using CashFlow.Application.UseCases.Expenses.Reports.Pdf;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 using System.Net.Mime;
 
 namespace CashFlow.Api.Controllers;
@@ -13,12 +15,31 @@ public class ReportController : ControllerBase
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> GetExcel(
         [FromServices] IGenerateExpensesReportExcelUseCase useCase,
-        [FromHeader] DateOnly month)
+        [FromQuery] String date)
+
     {
+        DateOnly month = DateOnly.ParseExact(date, "yyyy-MM", CultureInfo.InvariantCulture);
         byte[] file = await useCase.Execute(month);
 
         if (file.Length > 0)
             return File(file, MediaTypeNames.Application.Octet, "report.xlsx");
+
+        return NoContent();
+    }
+
+
+    [HttpGet("pdf")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public async Task<IActionResult> GetPdf(
+     [FromServices] IGenerateExpensesReportPdfUseCase useCase,
+     [FromQuery] String date)
+    {
+        DateOnly month = DateOnly.ParseExact(date, "yyyy-MM", CultureInfo.InvariantCulture);
+        byte[] file = await useCase.Execute(month);
+
+        if (file.Length > 0)
+            return File(file, MediaTypeNames.Application.Pdf, "report.pdf");
 
         return NoContent();
     }
