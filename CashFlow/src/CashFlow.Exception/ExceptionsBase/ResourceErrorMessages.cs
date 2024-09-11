@@ -1,4 +1,5 @@
-﻿namespace CashFlow.Exception;
+﻿
+namespace CashFlow.Exception;
 
 public class ResourceErrorMessages
 {
@@ -22,4 +23,5 @@ public class ResourceErrorMessages
 
     public const string EXPENSES_FOR = "Despesas para";
 
+    public const string TOTAL_SPENT_IN = "Total gasto em {0}";
 }
