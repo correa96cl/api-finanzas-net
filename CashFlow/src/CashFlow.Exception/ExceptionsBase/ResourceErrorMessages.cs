@@ -24,4 +24,13 @@ public class ResourceErrorMessages
     public const string EXPENSES_FOR = "Despesas para";
 
     public const string TOTAL_SPENT_IN = "Total gasto em {0}";
+
+
+    public const string CASH = "Dinheiro";
+
+    public const string CREDIT_CARD = "Cartão de Credito";
+
+    public const string DEBIT_CARD = "Cartão de Debito";
+
+    public const String ELETRONIC_TRANSFER = "Transferencia Eletronica";
 }

@@ -176,8 +176,16 @@
         }
       },
       "CashFlow.Domain/1.0.0": {
+        "dependencies": {
+          "CashFlow.Exception": "1.0.0"
+        },
         "runtime": {
           "CashFlow.Domain.dll": {}
+        }
+      },
+      "CashFlow.Exception/1.0.0": {
+        "runtime": {
+          "CashFlow.Exception.dll": {}
         }
       }
     }
@@ -294,6 +302,11 @@
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
     },
     "CashFlow.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CashFlow.Exception/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

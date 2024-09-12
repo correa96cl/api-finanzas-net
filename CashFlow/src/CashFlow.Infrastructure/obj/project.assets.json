@@ -271,11 +271,24 @@
       "CashFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CashFlow.Exception": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/CashFlow.Domain.dll": {}
+        }
+      },
+      "CashFlow.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
         }
       }
     }
@@ -725,6 +738,11 @@
       "type": "project",
       "path": "../CashFlow.Domain/CashFlow.Domain.csproj",
       "msbuildProject": "../CashFlow.Domain/CashFlow.Domain.csproj"
+    },
+    "CashFlow.Exception/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Exception/CashFlow.Exception.csproj",
+      "msbuildProject": "../CashFlow.Exception/CashFlow.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
