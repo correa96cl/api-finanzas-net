@@ -1,47 +1,5 @@
 # api-finanzas-net
 
-
-Installing NuGet into to Folder of CashFlow.Applicattion
-
-Open Terminal prompt and write or copy the next command
-
-```
-dotnet add package FluentValidation
-
-```
-
-
-```
-dotnet add package Bogus --version 35.5.1
-```
-
-
-
-docker-compose up
-
-
-
-``` SQL
-CREATE TABLE netcore_cashflow.Expenses (
-  Id INT AUTO_INCREMENT PRIMARY KEY,
-  Title VARCHAR(500) NOT NULL,
-  Description VARCHAR(1000),
-  Date DATE NOT NULL,
-  PaymentType INTEGER NOT NULL,
-  Amount DECIMAL NOT NULL
-
-);
-
-
-COMMIT;
-
-
-SELECT Id, Title, Description, `Date`, PaymentType, Amount
-FROM netcore_cashflow.Expenses;
-
-```
-
-
 ## Sobre o projeto
 
 Esta **API**, desenvolvida utilizando **.NET 8**, adota os princípios do **Domain-Driven Design (DDD)** para oferecer uma solução estruturada e eficaz no gerenciamento de despesas pessoais. O principal objetivo é permitir que os usuários registrem suas despesas, detalhando informações como título, data e hora, descrição, valor e tipo de pagamento, com os dados sendo armazenados de forma segura em um banco de dados **MySQL**.
@@ -85,6 +43,22 @@ Para obter uma cópia local funcionando, siga estes passos simples.
 2. Preencha as informações no arquivo `appsettings.Development.json`.
 3. Executa na pasta **src** o seguinte comando `docker compose up -d`
 4. Pega o arquivo **schema.sql** e cria o banco de dados em teu postgres.
+
+``` SQL
+CREATE TABLE netcore_cashflow.Expenses (
+  Id INT AUTO_INCREMENT PRIMARY KEY,
+  Title VARCHAR(500) NOT NULL,
+  Description VARCHAR(1000),
+  Date DATE NOT NULL,
+  PaymentType INTEGER NOT NULL,
+  Amount DECIMAL NOT NULL
+
+);
+
+
+COMMIT;
+
+```
 5. Execute a API e aproveite o seu teste :)
 
 <!-- Links -->
