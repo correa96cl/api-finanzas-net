@@ -1,4 +1,6 @@
 ﻿
+using CashFlow.Domain.Entities;
+
 namespace CashFlow.Domain;
 
 public class Expense
@@ -10,6 +12,10 @@ public class Expense
     public DateTime Date { get; set; }
     public PaymentType PaymentType { get; set; }
     public decimal Amount { get; set; }
+
+    public long UserId { get; set; }
+
+    public User? User { get; set; } = default!;
 
 
 }

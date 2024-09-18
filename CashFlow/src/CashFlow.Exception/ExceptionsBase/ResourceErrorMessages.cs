@@ -33,4 +33,12 @@ public class ResourceErrorMessages
     public const string DEBIT_CARD = "Cartão de Debito";
 
     public const String ELETRONIC_TRANSFER = "Transferencia Eletronica";
+
+    public static string EMAIL_EMPTY = "Email is required";
+
+    public static string EMAIL_INVALID = "Email invalid";
+
+    public static string NAME_EMPTY = "Name is required";
+
+    public static string INVALID_PASSWORD = "Password invalid";
 }

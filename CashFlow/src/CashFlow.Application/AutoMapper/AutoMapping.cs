@@ -1,8 +1,10 @@
 using System;
 using AutoMapper;
 using CashFlow.Communication;
+using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
 using CashFlow.Domain;
+using CashFlow.Domain.Entities;
 using FluentValidation;
 
 namespace CashFlow.Application.AutoMapper;
@@ -10,19 +12,23 @@ namespace CashFlow.Application.AutoMapper;
 public class AutoMapping : Profile
 {
 
-    public AutoMapping(){
+    public AutoMapping()
+    {
         RequestToEntity();
         EntityToResponse();
 
     }
 
 
-    private void RequestToEntity(){
+    private void RequestToEntity()
+    {
 
         CreateMap<RequestExpenseJson, Expense>();
+
     }
 
-    private void EntityToResponse(){
+    private void EntityToResponse()
+    {
         CreateMap<Expense, ResponseRegisteredExpenseJson>();
         CreateMap<Expense, ResponseShortExpenseJson>();
         CreateMap<Expense, ResponseExpenseJson>();
