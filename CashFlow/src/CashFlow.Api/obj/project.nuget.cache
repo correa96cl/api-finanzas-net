@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dPfBLf5ZxUI=",
+  "dgSpecHash": "QVfPwWW4yaI=",
   "success": true,
   "projectFilePath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/CashFlow.Api.csproj",
   "expectedPackageFiles": [
     "/Users/marcelovalderramacorrea/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/marcelovalderramacorrea/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/closedxml/0.102.3/closedxml.0.102.3.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/dateonlytimeonly.aspnet/2.1.1/dateonlytimeonly.aspnet.2.1.1.nupkg.sha512",
     "/Users/marcelovalderramacorrea/.nuget/packages/documentformat.openxml/2.16.0/documentformat.openxml.2.16.0.nupkg.sha512",

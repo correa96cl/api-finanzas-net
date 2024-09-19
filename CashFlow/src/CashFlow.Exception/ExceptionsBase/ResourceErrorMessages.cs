@@ -41,4 +41,6 @@ public class ResourceErrorMessages
     public static string NAME_EMPTY = "Name is required";
 
     public static string INVALID_PASSWORD = "Password invalid";
+
+    public static string EMAIL_ALREADY_REGISTERED = "Email already registered";
 }
