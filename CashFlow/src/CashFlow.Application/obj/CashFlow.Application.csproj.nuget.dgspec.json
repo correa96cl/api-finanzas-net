@@ -326,6 +326,10 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -333,6 +337,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [

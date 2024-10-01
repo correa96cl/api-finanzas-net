@@ -43,4 +43,6 @@ public class ResourceErrorMessages
     public static string INVALID_PASSWORD = "Password invalid";
 
     public static string EMAIL_ALREADY_REGISTERED = "Email already registered";
+
+    public static string EMAIL_OR_PASSWORD_INVALID = "Email or password invalid";
 }
