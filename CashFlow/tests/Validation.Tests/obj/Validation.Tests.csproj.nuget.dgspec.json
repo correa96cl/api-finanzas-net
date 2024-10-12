@@ -385,8 +385,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
+              },
               "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
                 "projectPath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              },
+              "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
               }
             }
           }
@@ -406,9 +412,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Bogus": {
               "target": "Package",
               "version": "[35.5.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             }
           },
           "imports": [

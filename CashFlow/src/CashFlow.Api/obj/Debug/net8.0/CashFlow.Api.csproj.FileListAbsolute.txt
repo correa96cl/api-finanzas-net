@@ -148,3 +148,6 @@
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/marcelovalderramacorrea/Documents/projetos/api-finanzas-net/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
